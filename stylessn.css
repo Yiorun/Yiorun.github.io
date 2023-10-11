@@ -1,0 +1,120 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    transition: background 0.3s;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    display: flex; /* Usamos Flexbox para alinear elementos en el encabezado */
+    align-items: center; /* Centra verticalmente los elementos */
+    justify-content: space-between; /* Coloca el logo a la izquierda y la navegación a la derecha */
+    transition: background 0.3s;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+#logo1 img {
+    width: 100px;
+    height: 100px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+/* Estilos de secciones */
+section {
+    padding: 40px;
+    transition: background 0.3s;
+}
+
+#inicio {
+    background-image: url(fondo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 20px; /* Agregamos un espacio de relleno alrededor del texto */
+}
+
+#texto-inicio {
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el texto */
+    padding: 20px; /* Espacio alrededor del texto dentro del cuadro */
+}
+
+#texto-inicio h1 {
+    font-size: 24px;
+}
+
+#texto-inicio p {
+    font-size: 18px;
+}
+
+#logo img:hover {
+    transform: scale(1.2);
+}
+
+header:hover {
+    background: #222;
+}
+
+nav a:hover {
+    color: #4389A2;
+}
+
+section:hover {
+    background: #e8e8e8;
+}
+
+#mision-vision-valores {
+    background: #f0f0f0;
+    padding: 40px;
+    text-align: center;
+}
+
+#mision-vision-valores h2 {
+    color: #333;
+}
+
+.item {
+    margin: 20px 0;
+}
+
+.item h1 {
+    color: #333;
+    text-decoration: underline;
+}
+
+.item p {
+    font-size: 16px;
+}
+
+.item ul {
+    list-style: disc;
+    text-align: justify;
+}
+
+.item ul li {
+    font-size: 16px;
+}

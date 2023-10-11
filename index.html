@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProyectArk</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Agrega tu archivo CSS personalizado aquí -->
+    <link rel="shortcut icon" href="Logo.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div id="logo1">
+            <img src="Logo.jpg" alt="ProyectArk Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#logo1">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#portafolio">Portafolio</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <div id="texto-inicio">
+            <br><br><br><br><br>
+            <h1>ProyectArk</h1>
+            <p>Somos un estudio de diseño 3D enfocado en la visualización arquitectónica.<br><br>
+            Digitalización de planos, diseños de proyectos arquitectónicos, renderizaciones y modelado en 3D.</p>
+            <br><br><br><br><br>
+        </div>
+    </section>    
+
+    <section id="servicios">
+        <h2>SERVICIOS</h2><br>
+        <ul>
+            <li>Digitalización de planos arquitectónicos.</li><br>
+            <li>Modelados en 3D.</li><br>
+            <li>Renders fotorrealistas.</li><br>
+            <li>Videos render de recorridos interiores y exteriores.</li><br>
+            <li>Diagramación de láminas arquitectónicas.</li><br>
+            <li>Retoques, montajes, texturas, materialidad de planos arquitectónicos.</li><br>
+            <li>Ilustraciones, diseños gráficos, logos.</li><br>
+            <li>Diseño de exteriores.</li><br>
+        </ul>
+    </section>
+
+    <section id="portafolio">
+        <h2>PORTAFOLIO</h2>
+        <br>
+        <div class="proyecto">
+            <img src="Portafolio1.jpeg" alt="Proyecto 1">
+            <h3>Vivienda SS</h3>
+        </div>
+        <div class="proyecto">
+            <img src="Portafolio2.jpeg" alt="Proyecto 2">
+            <h3>Vivienda AC</h3>
+        </div>
+        <div class="proyecto">
+            <img src="Portafolio3.jpeg" alt="Proyecto 3">
+            <h3>Vivienda DA</h3>
+        </div>
+        <div class="proyecto">
+            <img src="Portafolio4.jpeg" alt="Proyecto 4">
+            <h3>Edificio Manduvira</h3>
+        </div>
+        <div class="proyecto">
+            <img src="Portafolio5.jpeg" alt="Proyecto 5">
+            <h3>Vivienda SA</h3>
+        </div>
+    </section>
+
+    <section id="formulario">
+        <h2>¡Iniciá tu proyecto con nosotros!</h2>
+        <form id="contact-form" method="post" action="procesar_formulario.php">
+            <div class="form-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+            <div class="form-group">
+                <label for="servicio">¿Qué servicio deseas?</label>
+                <select id="servicio" name="servicio">
+                    <option value="" disabled selected>Seleccione una opción</option>
+                    <option value="Digitalización de planos arquitectónicos">Digitalización de planos arquitectónicos</option>
+                    <option value="Modelados en 3D">Modelados en 3D</option>
+                    <option value="Renders fotorrealistas">Renders fotorrealistas</option>
+                    <option value="Videos render de recorridos interiores y exteriores">Videos render de recorridos interiores y exteriores</option>
+                    <option value="Diagramación de láminas arquitectónicas">Diagramación de láminas arquitectónicas</option>
+                    <option value="Retoques, montajes, texturas, materialidad de planos arquitectónicos">Retoques, montajes, texturas, materialidad de planos arquitectónicos</option>
+                    <option value="Ilustraciones, diseños gráficos, logos">Ilustraciones, diseños gráficos, logos</option>
+                    <option value="Diseño de exteriores">Diseño de exteriores</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="observaciones">Observaciones:</label>
+                <textarea id="observaciones" name="observaciones" rows="4"></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </section>
+
+    <section id="contacto">
+        <h2>CONTACTO</h2>
+        <p>Contáctenos en:</p>
+        <address>
+            <p>Teléfono 📱: (+595) 981 546231  |  (+595) 971 531709</p>
+            <p>Correo electrónico 📩: <a href="mailto:proyectark.studio@gmail.com">proyectark.studio@gmail.com</a></p>
+        </address>
+    </section>
+
+    <footer>
+        <div id="logo">
+            <img src="Logo.jpg" alt="ProyectArk Logo2">
+        </div>
+        <br>
+        <div id="redes-sociales">
+            <a href="https://www.facebook.com/profile.php?id=100067655564576" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/proyectark/" target="_blank">Instagram</a>
+        </div>
+        <p>&copy; 2023 ProyectArk</p>
+    </footer>
+</body>
+</html>
